@@ -10,4 +10,5 @@ Do I think I will be successful? Probably not. But, I think I can learn somethin
 
 
 ## Data
-Taking 2024 Pitch Sequencing data from the two Cy Young Winners: Chris Sale and Tarik Skubal
+Using data from October 6, 2024. It is postseason pitch data for all games and all pitches. This was taken from a kaggle competition.
+https://www.kaggle.com/datasets/janus137/mlb-postseason-2024-pitch-by-pitch-data?select=Data_MLB_2024_StatcastPostSeasonToDate_PitchByPitch_20241006a.csv 
