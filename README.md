@@ -11,3 +11,5 @@ Do I think I will be successful? Probably not. But, I think I can learn somethin
 
 ## Data
 PyBaseball is a library in python that scrapes Baseball Reference, Baseball Savant, and FanGraphs to give the best and most in depth data available. I am using the statcast_pitcher() function to get the data from these two pitchers.
+
+Data Dictionary: https://baseballsavant.mlb.com/csv-docs 
