@@ -13,3 +13,7 @@ Do I think I will be successful? Probably not. But, I think I can learn somethin
 PyBaseball is a library in python that scrapes Baseball Reference, Baseball Savant, and FanGraphs to give the best and most in depth data available. I am using the statcast_pitcher() function to get the data from these two pitchers.
 
 Data Dictionary: https://baseballsavant.mlb.com/csv-docs 
+
+## Documents
+- Pitch_by_Pitch_cleaning.ipynb: Code to clean the data initially. This does not include dealing with outliers, label encoding, or normalization
+- sale_2024_cleaned.csv, skubal_2024_cleaned.csv: Initial cleaned data. Because the data I am using comes through a library, I wanted to save it as a csv so I didn't have to run the pitch_by_pitch_cleaning.ipynb file.
