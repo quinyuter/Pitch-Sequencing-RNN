@@ -3,13 +3,11 @@ Can I use a Recurrent Neural Network To Automate MLB Pitch Sequences?
 
 
 ## Goal
-I am looking to refine my Recurrent Neural Network skills by using a new library, Pytorch in Python. I am curious to see if there is a way to predict what pitch will come based on the prior pitches in an at-bat.
+I am looking to refine my Recurrent Neural Network skills by using a new library, Pytorch in Python. I am curious to see if there is a way to predict what pitch will come based on the prior pitches in an at-bat. I am going to do this with two separate pitchers: Chris Sale and Tarik Skubal. These were the two Cy Young winners from the 2024 season. Is one more predictable than the other? How do they compare?
 
 ## Hypothesis
 Do I think I will be successful? Probably not. But, I think I can learn something along the way about how pitch sequences are built. Whether it is through my intial EDA, through my data cleaning and feature engineering, or my actual modeling, something new will come from this!
 
 
 ## Data
-Using data from October 6, 2024. It is postseason pitch data for all games and all pitches. This was taken from a kaggle competition.
-
-Sage. (2024, November 4). MLB postseason 2024 pitch-by-pitch data. Kaggle. https://www.kaggle.com/datasets/janus137/mlb-postseason-2024-pitch-by-pitch-data?select=Data_MLB_2024_StatcastPostSeasonToDate_PitchByPitch_20241006a.csv 
+PyBaseball is a library in python that scrapes Baseball Reference, Baseball Savant, and FanGraphs to give the best and most in depth data available. I am using the statcast_pitcher() function to get the data from these two pitchers.
