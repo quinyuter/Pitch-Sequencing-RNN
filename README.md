@@ -17,4 +17,6 @@ Data Dictionary: https://baseballsavant.mlb.com/csv-docs
 ## Documents
 - Pitch_by_Pitch_cleaning.ipynb: Code to clean the data initially. This does not include dealing with outliers, label encoding, or normalization
 - sale_2024_cleaned.csv, skubal_2024_cleaned.csv: Initial cleaned data. Because the data I am using comes through a library, I wanted to save it as a csv so I didn't have to run the pitch_by_pitch_cleaning.ipynb file.
+- sale_modeling.csv, skubal_modeling.csv: Fully cleaned data to use for modeling.
 - Pitch Sequencing EDA.ipynb: Exploratory Data Analysis of the data.
+- Pitch_Feature_Engineering.ipynb: Final Cleaning, encoding, and normalizing.
