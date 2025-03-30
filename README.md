@@ -20,6 +20,7 @@ Data Dictionary: https://baseballsavant.mlb.com/csv-docs
 - sale_modeling.csv, skubal_modeling.csv: Fully cleaned data to use for modeling.
 - Pitch_Sequencing_EDA.ipynb: Exploratory Data Analysis of the data.
 - Pitch_Feature_Engineering.ipynb: Final Cleaning, encoding, and normalizing.
+- Pitch Sequencing RNN Modeling: Hyperparameter tuning, Recurrent Neural Network Modeling
 
 ## Order in which to view the code
 1. Pitch by Pitch Cleaning
