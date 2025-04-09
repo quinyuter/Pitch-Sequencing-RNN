@@ -27,3 +27,6 @@ Data Dictionary: https://baseballsavant.mlb.com/csv-docs
 2. Pitch Sequencing EDA
 3. Pitch Sequencing Feature Engineering
 4. Pitch Sequencing RNN Modeling
+
+## Results
+I created a new statistic called Predictability Score, which scores a pitcher from 0 to 1, with 1 meaning a pitcher is 100% predictable and 0 meaning a pitcher is not predictable at all. Chris Sale had a predictability score of 0.350 in the 2024 season. Tarik Skubal had a 0.375 predictability score. So, in the 2024 season, Tarik Skubal was a more predictable pitcher.
