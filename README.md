@@ -21,6 +21,7 @@ Data Dictionary: https://baseballsavant.mlb.com/csv-docs
 - Pitch_Sequencing_EDA.ipynb: Exploratory Data Analysis of the data.
 - Pitch_Feature_Engineering.ipynb: Final Cleaning, encoding, and normalizing.
 - Pitch Sequencing RNN Modeling: Hyperparameter tuning, Recurrent Neural Network Modeling
+- Pitch Sequencing RNN Report - Finished: Final Report of the project, outlining methods, results, reasoning behind the project, etc.
 
 ## Order in which to view the code
 1. Pitch by Pitch Cleaning
@@ -30,3 +31,7 @@ Data Dictionary: https://baseballsavant.mlb.com/csv-docs
 
 ## Results
 I created a new statistic called Predictability Score, which scores a pitcher from 0 to 1, with 1 meaning a pitcher is 100% predictable and 0 meaning a pitcher is not predictable at all. Chris Sale had a predictability score of 0.350 in the 2024 season. Tarik Skubal had a 0.375 predictability score. So, in the 2024 season, Tarik Skubal was a more predictable pitcher.
+
+## Report Abstract
+
+This personal research project investigates whether Major League Baseball pitch sequences can be predicted using Recurrent Neural Networks (RNNs). Focusing on 2024 Cy Young winners Chris Sale and Tarik Skubal, pitch level data was gathered, cleaned, explored, and used to build GRU-based RNN models using PyTorch. While model test accuracy hovered around 50%, I developed a new metric called Predictability Score (PS) that better reflects how predictable a pitcher is, accounting for the number of pitches in their arsenal. The results suggest that Tarik Skubal is slightly more predictable than Chris Sale, with a PS of 0.375 compared to 0.350. This project not only sharpened my RNN and Pytorch skills but also yielded interesting questions about how data science can affect decision making in baseball. There is still plenty of room for this model to grow, whether it be incorporating batter tendencies, experimenting with different model types, or removing sequence length constraints, but this was a rewarding step towards building a predictive tool that could benefit hitters, pitchers, and analysts.
