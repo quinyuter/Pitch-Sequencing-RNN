@@ -1,0 +1,19 @@
+# Core libraries
+numpy==1.24.3
+pandas==1.5.3
+
+# Visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Machine learning and preprocessing
+scikit-learn==1.2.2
+
+# Deep learning
+torch==2.0.1
+torchvision==0.15.2
+tqdm==4.65.0
+
+# Jupyter environment
+notebook==6.5.4
+ipykernel==6.25.0
