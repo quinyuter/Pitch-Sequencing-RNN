@@ -1,0 +1,10 @@
+pandas==2.2.3
+numpy==1.26.0
+matplotlib
+seaborn
+scikit-learn
+pybaseball==2.2.7
+torch==2.2.1
+jupyter
+ipykernel
+tqdm
