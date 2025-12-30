@@ -1,5 +1,5 @@
 # Pitch-Sequencing-RNN
-Can I use a Recurrent Neural Network To Automate MLB Pitch Sequences?
+Can I use a Recurrent Neural Network To Automate MLB Pitch Sequences? (Rough Draft of Finished Product)
 
 
 ## Goal
